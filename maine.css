@@ -1,0 +1,120 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #D7E1E8;
+}
+
+.container {
+	width: 1000px;
+	height: 100px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.circle {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	animation: box 1s infinite;
+
+}
+
+.ring {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.circle-1 {
+	border: 8px solid #E8EDEF;
+}
+
+.ring-1 {
+	background-color: white;
+}
+
+.circle-2 {
+	border: 8px solid #E1BEBC;
+}
+
+.ring-2 {
+	background-color: #FF634B;
+}
+
+.circle-3 {
+	border: 8px solid #E3C7BC;
+}
+
+.ring-3 {
+	background-color: #FF823B;
+}
+
+.circle-4 {
+	border: 8px solid #DED8C1;
+}
+
+.ring-4 {
+	background-color: #FF823B;
+}
+
+.circle-5 {
+	border: 8px solid #9BD2E0;
+}
+
+.ring-5 {
+	background-color: #2AA5E6;
+}
+
+.circle-6 {
+	border: 8px solid #AADAD8;
+}
+
+.ring-6 {
+	background-color: #25C7B2;
+}
+
+.circle-7 {
+	border: 8px solid #C4BAD9;
+}
+
+.ring-7 {
+	background-color: #25C7B2;
+}
+
+.circle-8 {
+	border: 8px solid #9AA1A4;
+}
+.ring-8 {
+	background-color: #000203;
+}
+
+@keyframes box {
+	0% {
+		width: 50px;
+		height: 50px;
+	}
+
+	50% {
+		width: 70px;
+		height: 70px;
+	}
+
+	100% {
+		width: 70px;
+		height: 70px;
+	}
+}
